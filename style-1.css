@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .sub-menu{
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+header .sub-menu input{
+    margin-left: 2rem;
+    outline: none;
+    border-radius: 12px;
+}
+header .sub-menu ul{
+    list-style: none;
+    display: flex;
+}
+header .sub-menu ul li{
+    margin-left: 1rem;
+}
+header .sub-menu h1{
+    color: blue;
+}
+.one .left{
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.one .left h3{
+    font-weight: bold;
+    font-size: large;
+}
+.one .left h1{
+    margin-top: 1rem;
+    color: rgb(214, 58, 58);
+    font-weight: bold;
+}
+.one .left p{
+    margin-top: 1rem;
+    font-weight: lighter;
+}
+.one .features .feature{
+    display: flex;
+    flex-direction: row;
+    height: 1.5rem;
+    margin-top: 2rem;
+}
+div .button{
+    height: 1.5rem;
+    width: 8%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    background: linear-gradient(blue,white);
+    color: whitesmoke;
+    border-radius: 12px;
+}
+.one .right{
+    display: flex;
+    justify-content: center;
+    margin-top: -35rem;
+    margin-left: 1.5rem;
+}
+.two{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    background: rgb(112, 204, 112);
+}
+.two h1{
+    margin-left: 2rem;
+    margin-top: 7rem;
+}
+.two .hello img{
+    height: 15rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;   
+    background-color: white;
+    border-radius: 100%;
+}
+.three .hii{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    background: mediumpurple;
+    border-radius: 40px;
+}
+.three .hii img{
+    height: 16rem;
+    margin-right: 2rem;
+}
+.three .hii h1{
+    margin-top: 2rem;
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.four .left{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    background-color: pink;
+    border-radius: 12px;
+}
+.four .left img{
+    height: 15rem;
+    margin-left: 8rem;
+}
+.four .left h2{
+    margin-top: 0.5rem;
+}
+.four .right{
+    margin-top: 2rem;
+    background-color: pink;
+    border-radius: 12px;
+}
+.four .right img{
+    height: 15rem;
+    margin-left: 6rem;
+}
+.five{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    background-color: aqua;
+}
+.five .left img{
+    height: 10rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 12px;
+}
+.five .right{
+    margin-top: 3rem;
+}
+.five .right h5{
+    margin-top: 0.5rem;
+}
+.five .right h4{
+    margin-top: 1rem;
+}
+.five .right space{
+    color: orange;
+}
+.five .right .button{
+    height: 2rem;
+    width: 15%;
+    border-radius: 20px;
+    background: linear-gradient(blue,white);
+    color: whitesmoke;
+}
+.six .upper{
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+.six .upper h1{
+    margin-left: 15rem;
+}
+.six .upper p{
+    margin-top: 0.5rem;
+    margin-left: 15rem;
+}
+.six .upper ul{
+    list-style: none;
+    display: flex;
+}
+.six .upper ul li{
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 4.5rem;
+}
+.six .lower img{
+    height: 10rem;
+    margin-left: 5rem;
+    background: lightseagreen;
+    border-radius: 15px;
+}
+.six .lower ul{
+    list-style: none;
+    display: flex;
+}
+.six .lower ul li{
+    margin-top: 1rem;
+    margin-left: 7.8rem;
+    margin-right: 2.5rem;
+}
+.six .down ul{
+    list-style: none;
+    display: flex;
+}
+.six .down ul li{
+    margin-left: 9rem;
+    margin-right: 2rem;
+}
+.seven .up img{
+    height: 10rem;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    margin-right: 2rem;
+    background: rgb(77, 114, 112);
+    border-radius: 15px;
+}
+.seven .middle ul{
+    list-style: none;
+    display: flex;
+}
+.seven .middle ul li{
+    margin-top: 1rem;
+    margin-left: 11rem;
+    margin-right: 2rem;
+}
+.seven .down ul{
+    list-style: none;
+    display: flex;
+}
+.seven .down ul li{
+    margin-left: 12rem;
+    margin-right: 1.5rem;
+}
